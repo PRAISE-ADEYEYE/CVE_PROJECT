@@ -39,9 +39,7 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # -------------------- HEADER --------------------------------
 st.title("💧 Rainwater Harvest & PVC Durability Simulator")
-st.markdown(
-    "Use this interactive tool to **estimate harvestable rainwater** from your roof and **project PVC structural integrity** under long‑term moisture exposure.  All calculations are **for educational planning only** — always consult a qualified engineer for critical designs."
-)
+
 
 # -------------------- SIDEBAR INPUTS ------------------------
 st.sidebar.header("📋 Input Parameters")
@@ -184,4 +182,4 @@ with right:
     )
 
 # -------------------- FOOTER --------------------------------
-st.markdown("""<small>© praise_adeyeye2025 — Streamlit demo app generated for educational purposes.</small>""", unsafe_allow_html=True)
+st.markdown("""<small>©2025 praise_adeyeye — Streamlit demo app generated for educational purposes.</small>""", unsafe_allow_html=True)
